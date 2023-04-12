@@ -1,0 +1,171 @@
+
+main .search-product {
+    padding: 20px;
+    margin: 20px auto;
+}
+
+main .search-product select {
+    margin-bottom: 20px;
+}
+
+/* main .carousel-apresentation {
+    width: 80%;
+} */
+
+main .carousel-apresentation {
+    display: none;
+}
+
+main #carouselExampleCaptions {
+    width: 80%;
+}
+
+/* main .most-reviewd-itens {
+    display: none;
+} */
+
+main .most-reviewd-itens .card {
+    padding: 20px;
+    max-width: 540px;
+    margin: 20px;
+    width: 90%;
+    display: contents;
+    border-bottom: black;
+}
+
+main .col-12 .price-product {
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+main .col-12 .price-with-discount {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+main .most-reviewd-itens .col-md-4 {
+        /* justify-content: center; */
+        display: flex;
+        align-items: center;
+        padding: 0 0 0 10px;
+}
+
+main .NewsLetter {
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+main .NewsLetter input {
+    margin: 20px 0px;
+    width: 95%;
+}
+
+footer i {
+    padding-right: 5px;
+}
+
+footer .row {
+    font-weight: bold;
+    text-align: center;
+    background: lightgray;
+}
+
+footer .copyright {
+    background: rgb(180, 180, 180);
+}
+
+footer .copyright p {
+    margin: 0px;
+}
+
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul li {
+    align-self: flex-start;
+}
+
+footer .contact-us p {
+    text-align: start;
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
+}
+
+footer .contact-us a {
+    display: flex;
+}
+
+footer .copyright {
+    text-align: center;
+}
+
+/*Rating - Start*/
+
+
+  
+/*Rating - End*/
+
+/* Media Query */
+
+/* Desktop - breakpoint (lg) */
+  @media screen and (min-width: 992px) {
+    main .search-product {
+        padding: 20px;
+        padding-left: 30px;
+        margin: 30px;
+    }
+    main .carousel-apresentation {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        padding: auto;
+        width: 60%;
+    }
+
+    main .NewsLetter {
+        padding: 10px;
+    }
+    main .most-reviewd-itens .col-md-4 {
+        /* justify-content: center; */
+        display: flex;
+        align-items: center;
+        padding: 0 0 0 10px;
+    }
+    main .most-reviewd-itens {
+        display: block;
+    }
+  }
+
+/* Tablet - breakpoint (md) */
+  @media screen and (min-width: 768px) {
+    main .search-product {
+        padding: 20px;
+        margin: 20px auto;
+    }
+    
+    main .carousel-apresentation {
+        display: flex;
+        justify-content: center;
+        margin: 20px auto;
+        padding: auto;
+        max-width: max-content;
+    }
+
+    main .NewsLetter {
+        padding: 10px;
+    }
+    main .most-reviewd-itens .col-md-4 {
+        /* justify-content: center; */
+        display: flex;
+        align-items: center;
+        padding: 0 0 0 10px;
+    }
+    main .most-reviewd-itens {
+        display: block;
+    }
+  }
